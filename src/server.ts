@@ -1,5 +1,5 @@
 import app from './app';
-
-app.listen(5151, () => {
-  console.log('Example app listening on port 5678!');
+const port = process.env.PORT || 5151;
+app.listen(port, () => {
+  console.log('Example app listening on port 5151!');
 });

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@types/morgan": "^1.7.35",
     "axios": "^0.19.0",
     "express": "^4.17.1",
     "morgan": "^1.9.1"
@@ -27,8 +28,7 @@
     "start": "tsc -p . && nodemon dist/server.js",
     "dev": "nodemon src/server.ts",
     "build": "tsc -p .",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "lint:fix": "tslint -c tslint.json 'src/**/*.ts' --fix",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "test": "npx jest --coverage"
   },
   "keywords": [

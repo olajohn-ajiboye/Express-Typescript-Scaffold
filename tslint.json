@@ -8,6 +8,12 @@
     "no-unused-expression": true
   },
   "rules": {
+    "no-trailing-whitespace": [true, "always"],
+    "prefer-const": [true, {
+      "destructuring": "any"
+    }],
+    "semicolon": [true, "always"],
+    "quotemark": [true, "single"],
     "max-line-length": [
       true,
       130
